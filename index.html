@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Openbox</title>
+
+    <meta property="og:title" content="Openbox">
+    <meta property="og:site_name" content="Openbox">
+
+    <link rel="apple-touch-icon" type="image/png" href="favicon.png" sizes="32x32">
+    <link rel="apple-touch-icon" type="image/png" href="favicon.png" sizes="64x64">
+    <link rel="apple-touch-icon" type="image/png" href="favicon.png" sizes="128x128">
+
+    <link rel="stylesheet" type="text/css" href="src/assets/style-sheets/index-style-sheets.css">
+    <link rel="stylesheet" href="src/media/fonts/social-network-icons/style.css">
+    <link rel="stylesheet" type="text/css" href="src/assets/style-sheets/responsive-index-style-sheet.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" sizes="64x64">
+</head>
+<body>
+    <nav class="navigation-bar-navbar" id="navbar" data-controller="navigation" role="nav">
+        <div class="navigation-super-container">
+            <section class="logo-toggle-section">
+                <a href="" class="svg-navigation-logo" role="logo" data-controller="logo-nav"></a>
+
+                <button class="toggle-button" id="toggle-button" data-toggle="burger-toggle" role="toggle">
+                    <div class="icon-container"><span class="span-burger-icon"></span></div>
+                </button>
+            </section>
+
+            <section class="overlay-menu-container" id="overlay-menu-container">
+                <aside class="desktop-mobile-aside-container" id="aside-menu" data-controller="aside">
+                    <div class="aside-navigation aside-navigation-primary" role="menu">
+                        <ul class="aside-navigation-list">
+                            <li class="aside-navigation-list-element"><a href="#" class="active"><span>Home</span></a></li>
+
+                            <li class="aside-navigation-list-element"><a href="#"><span>Documentación</span></a></li>
+
+                            <li class="aside-navigation-list-element"><a href="#"><span>Ejemplos</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="aside-navigation aside-navigation-secondary" role="menu">
+                        <ul class="aside-navigation-list">
+                            <li class="aside-navigation-list-element"><a href="https://www.github.com" class="gh" target="_blank"><span class="icon-github-icon"></span></a></li>
+
+                            <li class="aside-navigation-list-element"><a href="https://www.twitter.com" class="tw" target="_blank"><span class="icon-twitter-icon"></span></a></li>
+                        </ul>
+                    </div>
+                </aside>
+                <div class="close-menu" id="close-menu" data-toggle="btnclosed" role="closed" data-controller="hidden"></div>
+            </section>
+        </div>
+    </nav>
+    <script type="text/javascript" src="src/assets/javascript-files/script-navigation-bar-responsive.js"></script>
+
+    <section class="first-section"></section>
+    <section class="second-section"></section>
+    <section class="third-section"></section>
+
+    <section class="line-before-footer"></section>
+    <footer class="footer">
+        <h3><span>&copy; 2020 Brandon A.P</span></h3>
+    </footer>
+</body>
+</html>

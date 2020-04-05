@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    background: #ffffff;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*------------Navigation bar start styles------------*/
+.navigation-bar-navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background: #ffffff;
+    border-bottom: 1px solid #cecece;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.navigation-super-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    max-width: 1320px;
+}
+
+.logo-toggle-section{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    max-width: 25%;
+    align-items: center;
+}
+.logo-toggle-section .svg-navigation-logo{
+    width: 140px;
+    height: 30px;
+    background-image: url(../../media/brand/svg/openbox-black.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.toggle-button{
+    position: absolute;
+    display: none;
+    width: 22px;
+    height: 22px;
+    right: 5%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    cursor: pointer;
+}
+.toggle-button .icon-container{
+    position: relative;
+    width: 18px;
+    height: 18px;
+}
+.toggle-button .span-burger-icon{
+    position: absolute;
+    width: 18px;
+    height: 2px;
+    top: 8px;
+    left: 0;
+    border-radius: 4px;
+    background: #1f1f1f;
+}
+.toggle-button .span-burger-icon:before{
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 2px;
+    top: -5px;
+    left: 0;
+    border-radius: 4px;
+    background: #1f1f1f;
+}
+.toggle-button .span-burger-icon:after{
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 2px;
+    top: 5px;
+    left: 0;
+    border-radius: 4px;
+    background: #1f1f1f;
+}
+
+.overlay-menu-container{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    max-width: 75%;
+}
+.desktop-mobile-aside-container{
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.aside-navigation-primary{
+    width: 100%;
+    height: 40px;
+    max-width: 84%;
+}
+.aside-navigation-primary ul{
+    display: flex;
+    float: right;
+    margin: 8px 0px;
+}
+.aside-navigation-primary a{
+    color: #a3a3a3;
+    padding: 10px 14px;
+    transition: 0.3s ease;
+}
+.aside-navigation-primary .active{
+    color: #1f1f1f;
+}
+.aside-navigation-primary a:hover{
+    color: #1f1f1f;
+    transition: 0.3s ease;
+}
+
+.aside-navigation-secondary{
+    width: 100%;
+    height: 40px;
+    max-width: 16%;
+}
+.aside-navigation-secondary ul{
+    display: flex;
+    float: right;
+    margin: 6px 0px;
+}
+.aside-navigation-secondary a{
+    color: #1f1f1f;
+    font-size: 22px;
+    padding: 0px 16px;
+    transition: 0.3s ease;
+}
+.aside-navigation-secondary .gh{
+    padding-left: 0px;
+}
+.aside-navigation-secondary .tw{
+    padding-right: 0px;
+}
+.aside-navigation-secondary a:hover{
+    color: #a3a3a3;
+    transition: 0.3s ease;
+}
+/*------------Navigation bar end styles------------*/
+
+
+.first-section{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+.second-section{
+    width: 100%;
+    height: 100vh;
+    background: #99dfff;
+}
+.third-section{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+
+
+/*---------------Footer start styles---------------*/
+.line-before-footer{
+    width: 100%;
+    height: 1px;
+    background: #cecece;
+    max-width: 1320px;
+    margin: auto;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background: #ffffff;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer h3{
+    font-weight: 200;
+}
+/*---------------Footer end styles---------------*/

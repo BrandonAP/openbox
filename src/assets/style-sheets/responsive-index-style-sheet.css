@@ -1,0 +1,268 @@
+@media screen and (min-width: 650px) and (max-width: 950px){
+    /*------------Navigation bar start styles------------*/
+    .navigation-bar-navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 55px;
+        display: flex;
+        background: #ffffff;
+        border-bottom: 1px solid #cecece;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    
+    .navigation-super-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        max-width: 90%;
+    }
+    
+    .logo-toggle-section{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        max-width: 100%;
+        align-items: center;
+    }
+    .logo-toggle-section .svg-navigation-logo{
+        width: 120px;
+        height: 26px;
+    }
+    
+    .toggle-button{
+        display: flex;
+    }
+    
+    .overlay-menu-container{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: block;
+        max-width: 100%;
+        background: #00000071;
+        visibility: hidden;
+        transition: 0.2s ease;
+    }
+    .overlay-menu-container.active{
+        visibility: visible;
+        transition: 0.3s ease;
+    }
+    .close-menu{
+        width: 50%;
+        height: 100vh;
+    }
+    .desktop-mobile-aside-container{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        right: -320px;
+        max-width: 320px;
+        display: block;
+        overflow: auto;
+        background: #ffffff;
+        transition: 0.4s ease;
+        z-index: 50;
+    }
+    .overlay-menu-container.active .desktop-mobile-aside-container{
+        right: 0;
+        transition: 0.4s ease;
+    }
+    .aside-navigation-primary{
+        height: auto;
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .aside-navigation-primary ul{
+        display: block;
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0px 0px;
+    }
+    .aside-navigation-primary a{
+        color: #a3a3a3;
+        display: flex;
+        font-size: 17px;
+        padding: 18px 0px;
+        transition: 0.3s ease;
+    }
+    .aside-navigation-primary .active{
+        color: #1f1f1f;
+    }
+    .aside-navigation-primary a:hover{
+        color: #1f1f1f;
+        transition: 0.3s ease;
+    }
+    
+    .aside-navigation-secondary{
+        width: 100%;
+        height: auto;
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .aside-navigation-secondary ul{
+        display: flex;
+        float: none;
+        width: 100%;
+        height: 100%;
+        margin: 0px 0px;
+    }
+    .aside-navigation-secondary a{
+        color: #1f1f1f;
+        font-size: 24px;
+        padding: 0px 16px;
+        transition: 0.3s ease;
+    }
+    /*------------Navigation bar end styles------------*/
+
+    /*---------------Footer start styles---------------*/
+    .line-before-footer{
+        max-width: 90%;
+    }
+    .footer h3{
+        font-size: 17px;
+    }
+    /*---------------Footer end styles---------------*/
+}
+@media screen and (min-width: 290px) and (max-width: 650px){
+    /*------------Navigation bar start styles------------*/
+    .navigation-bar-navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 55px;
+        display: flex;
+        background: #ffffff;
+        border-bottom: 1px solid #cecece;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    
+    .navigation-super-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        max-width: 90%;
+    }
+    
+    .logo-toggle-section{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        max-width: 100%;
+        align-items: center;
+    }
+    .logo-toggle-section .svg-navigation-logo{
+        width: 120px;
+        height: 26px;
+    }
+    
+    .toggle-button{
+        display: flex;
+    }
+    
+    .overlay-menu-container{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: block;
+        max-width: 100%;
+        background: #0000008a;
+        visibility: hidden;
+        transition: 0.2s ease;
+    }
+    .overlay-menu-container.active{
+        visibility: visible;
+        transition: 0.3s ease;
+    }
+    .close-menu{
+        width: 50%;
+        height: 100vh;
+    }
+    .desktop-mobile-aside-container{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        right: -270px;
+        max-width: 270px;
+        display: block;
+        background: #ffffff;
+        overflow: auto;
+        transition: 0.4s ease;
+        z-index: 50;
+    }
+    .overlay-menu-container.active .desktop-mobile-aside-container{
+        right: 0;
+        transition: 0.4s ease;
+    }
+    .aside-navigation-primary{
+        height: auto;
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .aside-navigation-primary ul{
+        display: block;
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0px 0px;
+    }
+    .aside-navigation-primary a{
+        color: #a3a3a3;
+        display: flex;
+        font-size: 17px;
+        padding: 18px 0px;
+        transition: 0.3s ease;
+    }
+    .aside-navigation-primary .active{
+        color: #1f1f1f;
+    }
+    .aside-navigation-primary a:hover{
+        color: #1f1f1f;
+        transition: 0.3s ease;
+    }
+    
+    .aside-navigation-secondary{
+        width: 100%;
+        height: auto;
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .aside-navigation-secondary ul{
+        display: flex;
+        float: none;
+        width: 100%;
+        height: 100%;
+        margin: 0px 0px;
+    }
+    .aside-navigation-secondary a{
+        color: #1f1f1f;
+        font-size: 24px;
+        padding: 0px 16px;
+        transition: 0.3s ease;
+    }
+    /*------------Navigation bar end styles------------*/
+
+    /*---------------Footer start styles---------------*/
+    .line-before-footer{
+        max-width: 90%;
+    }
+    .footer h3{
+        font-size: 17px;
+    }
+    /*---------------Footer end styles---------------*/
+}
