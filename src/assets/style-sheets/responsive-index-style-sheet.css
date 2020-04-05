@@ -61,8 +61,8 @@
         position: absolute;
         width: 100%;
         height: 100vh;
-        right: -320px;
-        max-width: 320px;
+        right: -260px;
+        max-width: 260px;
         display: block;
         overflow: auto;
         background: #ffffff;
@@ -195,8 +195,8 @@
         position: absolute;
         width: 100%;
         height: 100vh;
-        right: -270px;
-        max-width: 270px;
+        right: -260px;
+        max-width: 260px;
         display: block;
         background: #ffffff;
         overflow: auto;
