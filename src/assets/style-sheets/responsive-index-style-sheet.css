@@ -1,10 +1,6 @@
 @media screen and (min-width: 650px) and (max-width: 950px){
     /*------------Navigation bar start styles------------*/
     .navigation-bar-navbar{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
         height: 55px;
         display: flex;
         background: #ffffff;
@@ -135,10 +131,6 @@
 @media screen and (min-width: 290px) and (max-width: 650px){
     /*------------Navigation bar start styles------------*/
     .navigation-bar-navbar{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
         height: 55px;
         display: flex;
         background: #ffffff;
