@@ -43,7 +43,7 @@
         max-width: 100%;
         background: #00000071;
         visibility: hidden;
-        transition: 0.2s ease;
+        transition: 0.3s ease;
     }
     .overlay-menu-container.active{
         visibility: visible;
@@ -62,12 +62,12 @@
         display: block;
         overflow: auto;
         background: #ffffff;
-        transition: 0.4s ease;
+        transition: 0.5s ease;
         z-index: 50;
     }
     .overlay-menu-container.active .desktop-mobile-aside-container{
         right: 0;
-        transition: 0.4s ease;
+        transition: 0.5s ease;
     }
     .aside-navigation-primary{
         height: auto;
